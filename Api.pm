@@ -1,5 +1,5 @@
 #!/usr/bin/perl -w
-package Api;
+package NXT::Api;
 
 use strict;
 use JSON -support_by_pp;
