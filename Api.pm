@@ -37,9 +37,6 @@ BEGIN {
 
 	$client = new JSON::RPC::Client;
 	$url = URI::Encode->new({encode_reserved => 1, double_encode => 1});
-
-	$port = $port;
-	$host = $host;
 }
 
 END {
