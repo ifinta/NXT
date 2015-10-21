@@ -23,7 +23,6 @@ $VERSION     = 1.00;
 
 $| = 1;
 
-our $confirmations;
 our $port;
 our $host;
 my $lwp;
